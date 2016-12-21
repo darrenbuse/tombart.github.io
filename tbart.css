@@ -1,0 +1,82 @@
+
+
+
+.jumbotron {
+background-image: url("images/macsmall2.jpg");
+background-size: cover;
+min-height: 480px;
+margin-bottom: 45px;
+}
+
+.jumbotron h1{
+    /*color: #f48342;*/
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+
+.jumbotron p{
+    color: #fff;
+}
+
+.img-responsive {margin:0 auto;}
+
+body {
+	     margin-bottom: 0;
+	     color: #FF6600;
+       font-family: 'Comfortaa', cursive;
+       font-weight: bold;
+
+    }
+
+    .navbar-fixed-top {
+    min-height: 80px;
+}
+
+.nav a{
+    font-weight: bold;
+    font-size: 1.3em !important;
+    }
+
+ .nav >li >a {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+ .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+.navbar-brand>img {
+  height: 350px;
+  padding: 0px;
+  width: auto;
+}
+
+
+.nav-footer {
+  min-height: 80px;
+  padding-top: 20px;
+}
+
+.description {
+  color: #5a5a5a;
+
+}
+/*
+.navbar-brand>img {
+  height: 80px;
+  padding: 10px;
+  width: auto;
+}
+
+*/
+
+
