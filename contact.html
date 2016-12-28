@@ -1,73 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TBART Limited</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Bootstrap -->
+	<meta name="description" content="IT Services, IT Consultancy">
+	<meta name="author" content="Tomasz Bartosiewicz">
+	<!-- css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="tbart.css" rel="stylesheet">
+	<link href="css/tbart.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
- 
- 
-</head>
 
+
+
+	<title>TBART Limited</title>
+</head>
 <body>
 
-
-<nav class="navbar-default navbar-static-top" role="navigation">
+	<nav class="navbar-default navbar-static-top" role="navigation">
 		<div class="container"> 
-			<!-- <div class="container-fluid">  -->
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="http://tbart.co.uk"><img src="tbartLogo.svg" alt="Dispute Bills">
+				<a class="navbar-brand" href="http://tbart.co.uk"><img src="images/tbartLogo.svg" alt="TBART Limited">
 				</a>
 			</div>
-			<div id="navbar1" class="navbar-collapse collapse">
+			<div id="navigationbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li ><a href="index.html">Home</a></li>
-				
 					<li  class="active"><a href="contact.html">Contact</a></li>
-
 				</ul>
 			</div>
-			<!--/.nav-collapse -->
 		</div> 
-		<!--/.container-fluid -->
 	</nav>
 </div>
 
-
-
 <div class="container position">
-<div class="col-md-5">
-    <div class="form-area">  
-        <form role="form" method="POST" action="http://formspree.io/tom@tbart.co.uk">
-        <br style="clear:both">
-                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
-    				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-					</div>
-					
-					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-					</div>
-                    <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                        <!-- <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>   -->                  
-                    </div>
-            
-        <button type="submit" id="submit" class="btn btn-default btn-sub pull-right">Submit Form</button>
-        </form>
-    </div>
-</div>
+	<div class="col-md-5">
+		<div class="form-area">  
+			<form role="form" method="POST" action="http://formspree.io/tom@tbart.co.uk">
+				<br style="clear:both">
+				<h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="140" rows="7"></textarea>           
+				</div>
+				<button type="submit" id="submit" class="btn btn-default btn-sub pull-right">Submit Form</button>
+			</form>
+		</div>
+	</div>
 </div>
 
 <hr class="featurette-divider divider" style="max-width: 80%">
@@ -76,26 +69,17 @@
 	<h3 class="text-center"> Alternatively please email us on:
 		<h4 class="text-center"><a href="mailto:tom@tbart.co.uk">tom@tbart.co.uk</a></h4>
 	</h3>
-
 </div>
 
 <footer>
-    
-   
-		
-			<nav class="navbar-default  navbar-static-bottom nav-footer" role="navigation">
-
-	    		<div class="container text-center">
- 					<!-- <p class="pull-right text-center"><a href="#">Back to top</a></p> -->
-	        		<p class="navbar-text col-md-12 col-sm-12 col-xs-12">
+	<nav class="navbar-default  navbar-static-bottom nav-footer" role="navigation">
+		<div class="container text-center">
+			<p class="navbar-text col-md-12 col-sm-12 col-xs-12">
 				&copy; 2016 TBART, Inc.</p>
-	    		</div>
-			</nav>
-	
-	
-    </footer>
-
-	
-
+			</div>
+		</nav>
+	</footer>
+	<script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
